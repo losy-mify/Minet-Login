@@ -14,10 +14,7 @@ jobs:
           path: private
 
       - name: 📂 移动脚本到工作目录
-        run: |
-          mv private/minet_login.py minet_login.py
-          mv private/turnstile_page.py turnstile_page.py
-          mv private/turnstile_form.py turnstile_form.py
+        run: mv private/minet_login.py minet_login.py
 
       - name: 🐍 设置 Python
         uses: actions/setup-python@v5
