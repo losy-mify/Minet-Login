@@ -28,6 +28,7 @@ jobs:
             google-chrome-stable \
             xvfb \
             x11-utils \
+            xdotool \
             scrot
 
       - name: 🐍 安装 Python 依赖
